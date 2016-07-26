@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tlioylc.notificationsdemo.MainActivity" >
+
+    <Button
+        android:id="@+id/show_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Notification"
+        android:text="@string/show_notification" />
+    
+    <Button
+        android:id="@+id/show_notification_with_diy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Notification"
+        android:text="@string/show_notification_with_diy" />
+        
+    <Button
+        android:id="@+id/show_notification_with_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Notification"
+        android:text="@string/show_notification_with_button" />
+            
+    <Button
+        android:id="@+id/show_notification_with_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Notification"
+        android:text="@string/show_notification_with_progress" />
+                
+                        
+
+</LinearLayout>
